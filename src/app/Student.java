@@ -1,7 +1,7 @@
 package app;
 
 
-public class Student {
+public class Student implements IPerson{
 
     private String name;
     private String nic;
@@ -24,5 +24,9 @@ public class Student {
             sb.append(", NIC number: " + this.nic);
         }
         return sb.toString();
+    }
+
+    public void printName() {
+        System.out.println(this.name);
     }
 }

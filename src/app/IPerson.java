@@ -6,6 +6,6 @@ public interface IPerson {
 
     String getNIC();
     
-    String printName();
+    void printName();
 
 }
