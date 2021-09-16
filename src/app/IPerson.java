@@ -5,7 +5,4 @@ public interface IPerson {
     String getName();
 
     String getNIC();
-    
-    void printName();
-
 }

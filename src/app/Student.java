@@ -10,23 +10,16 @@ public class Student {
         this.name = name;
     }
 
-    public String getName() {
-        return this.name;
-    }
-
-    public String getNIC() {
-        return this.nic;
+    public Student(String name, String nic) {
+        this.name = name;
+        this.nic = nic;
     }
 
     public String toString() {
         StringBuilder sb = new StringBuilder("Name: " + this.name);
-        if (!"".equals(nic)) {
+        if (nic != null) {
             sb.append(", NIC number: " + this.nic);
         }
         return sb.toString();
-    }
-
-    public void printName() {
-        System.out.println(this.name);
     }
 }
