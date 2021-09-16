@@ -1,7 +1,7 @@
 package app;
 
 
-public class Student {
+public class Student implements IPerson{
 
     private String name;
     private String nic;
@@ -13,6 +13,14 @@ public class Student {
     public Student(String name, String nic) {
         this.name = name;
         this.nic = nic;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public String getNIC() {
+        return this.nic;
     }
 
     public String toString() {
