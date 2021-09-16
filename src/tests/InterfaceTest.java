@@ -15,4 +15,5 @@ public class InterfaceTest {
         var student = new Student("John");
         assertTrue("Student class should implement IPerson interface", student instanceof IPerson);
     }
+    
 }
