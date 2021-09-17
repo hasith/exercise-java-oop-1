@@ -44,8 +44,12 @@ Every task here is covered by one or more test cases. You should locally run the
     > Note that the access modifier ```private``` of the class-variables should be changed to ```protected``` in order for them to be accessible to the inherited classes.
 
 1. **Task_5_implement_getAge**: Add the following 2 methods to ```IPerson``` interface. You are required to code the implementation of the 2 methods to ```Person``` abstract class.
-    * ```setBirthYear(int year)```
+    * ```void setBirthYear(int year)```
     * ```int getBirthYear()```
     * ```int getAge()```
 
-    > Age should be calculated by reducing the year-of-birth from current year.
+    > You are required to complete the ```getAge()``` method in ```Course``` class by adding appropriate logic. Basically the age should be calculated by reducing birth-year from the current year.
+
+1. **Task_6_instructor_methods_in_course**: There are 2 methods  in ```Course``` that are related to instructors but not implemented. You need to implement following 2 methods similarly to how ```addStudent(Student student)``` and ```getStudents()``` are implemented.
+    * ```void addInstructor(Instructor instructor)```
+    * ```List<Instructor> getInstructors()```
