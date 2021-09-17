@@ -10,7 +10,7 @@ import app.Student;
 import app.Instructor;
 import app.Person;
 
-public class Task_abstract_class_person {
+public class Task_3_abstract_class_person {
 
     @Test
     public void is_abstract_class() {

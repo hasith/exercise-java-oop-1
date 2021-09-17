@@ -9,7 +9,7 @@ import org.junit.Test;
 import app.Instructor;
 import app.IPerson;
 
-public class Task_complete_instructor {
+public class Task_2_complete_instructor {
 
     @Test
     public void is_interface_implemented() {
