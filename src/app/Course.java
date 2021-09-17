@@ -46,8 +46,10 @@ public class Course {
         return this.instructors;
     }
 
-    public int getAverageAgeOfPersons() {
-        // TODO this method is not yet implemented
-        return -1;
+    public List<IPerson> getAllAssociatedPersons() {
+        List<IPerson> all = new ArrayList<IPerson>();
+        all.addAll(this.instructors);
+        all.addAll(this.students);
+        return all;
     }
 }

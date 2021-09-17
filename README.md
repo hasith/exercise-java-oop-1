@@ -53,3 +53,5 @@ Every task here is covered by one or more test cases. You should locally run the
 1. **Task_6_instructor_methods_in_course**: There are 2 methods  in ```Course``` that are related to instructors but not implemented. You need to implement following 2 methods similarly to how ```addStudent(Student student)``` and ```getStudents()``` are implemented.
     * ```void addInstructor(Instructor instructor)```
     * ```List<Instructor> getInstructors()```
+
+1. **Task_7_course_getAllAssociatedPersons**: ```getAllAssociatedPersons()``` method in ```Course``` is not currently implemented. You are required to implement this method with following logic. Once invoked, this method should return all persons (Students and Instructors) associated with the ```Course```, combined into a Single ```List```.
