@@ -9,4 +9,10 @@ public interface IPerson {
     String getNIC();
 
     void setNIC(String nic);
+
+    void setBirthYear(int year);
+
+    int getBirthYear();
+
+    int getAge();
 }
