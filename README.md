@@ -27,10 +27,10 @@ Every task here is covered by one or more test cases. You should locally run the
 
 ## Tasks to solve
 
-1. **Task_add_interface_to_student**: There is a class called ```Student``` in the source code. You must get this class to implement ```IPerson``` interface. There can be methods that are required to be added to the Student class as a result of this change.
+1. **Task_1_add_interface_to_student**: There is a class called ```Student``` in the source code. You must get this class to implement ```IPerson``` interface. There can be methods that are required to be added to the Student class as a result of this change.
 
-1. **Task_complete_instructor**: Have a look at ```Instructor``` class. It should be completed similar to ```Student``` class. This class should also implement ```IPerson``` interface.
+1. **Task_2_complete_instructor**: Have a look at ```Instructor``` class. It should be completed similar to ```Student``` class. This class should also implement ```IPerson``` interface.
 
-1. **Task_abstract_class_person**: There is an empty class in the solution called ```Person```. We need to make this an abstract class. Then inherit ```Student``` and ```Instructor``` classes from this ```Person``` abstract class.
+1. **Task_3_abstract_class_person**: There is an empty class in the solution called ```Person```. We need to make this an abstract class. Then inherit ```Student``` and ```Instructor``` classes from this ```Person``` abstract class.
 
-1. **Task_reuse_methods_via_abstract_class**: Move common methods in ```Student``` and ```Instructor``` classes to the new abstract class ```Person```. This allows us to reuse these methods and reduce the amount of code in the solution.
+1. **Task_4_reuse_methods_via_abstract_class**: Move common methods in ```Student``` and ```Instructor``` classes to the new abstract class ```Person```. This allows us to reuse these methods and reduce the amount of code in the solution.
