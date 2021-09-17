@@ -21,6 +21,10 @@ public class Course {
         this.students.add(student);
     }
 
+    public List<Student> getStudents() {
+        return this.students;
+    }
+
     public void printStudents() {
         if (this.students.size() > 0) {
             for (int i = 0; i < this.students.size(); i++) {
@@ -30,5 +34,19 @@ public class Course {
             System.out.println("-no students in this course-");
         }
 
+    }
+
+    public void addInstructor(Instructor instructor) {
+        //TODO this method is not yet implemented
+    }
+
+    public List<Instructor> getInstructors() {
+        // TODO this method is not yet implemented
+        return null;
+    }
+
+    public int getAverageAgeOfPersons() {
+        // TODO this method is not yet implemented
+        return -1;
     }
 }
