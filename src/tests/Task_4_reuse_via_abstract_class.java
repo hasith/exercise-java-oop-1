@@ -18,7 +18,7 @@ public class Task_4_reuse_via_abstract_class {
     @Test
     public void does_abstract_class_have_setName() {
         try {
-            Person.class.getMethod("setName");
+            Person.class.getMethod("setName", String.class);
         } catch (NoSuchMethodException e) {
             fail("Abstract class should implement setName method");
         }
@@ -36,7 +36,7 @@ public class Task_4_reuse_via_abstract_class {
     @Test
     public void does_abstract_class_have_setNIC() {
         try {
-            Person.class.getMethod("setNIC");
+            Person.class.getMethod("setNIC", String.class);
         } catch (NoSuchMethodException e) {
             fail("Abstract class should implement setNIC method");
         }
