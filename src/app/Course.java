@@ -7,10 +7,12 @@ public class Course {
 
     private String name;
     private List<Student> students;
+    private List<Instructor> instructors;
 
     public Course(String name) {
         this.name = name;
         this.students = new ArrayList<Student>();
+        this.instructors = new ArrayList<Instructor>();
     }
 
     public String getName() {
@@ -37,12 +39,11 @@ public class Course {
     }
 
     public void addInstructor(Instructor instructor) {
-        //TODO this method is not yet implemented
+        instructors.add(instructor);
     }
 
     public List<Instructor> getInstructors() {
-        // TODO this method is not yet implemented
-        return null;
+        return this.instructors;
     }
 
     public int getAverageAgeOfPersons() {
