@@ -3,7 +3,6 @@ package app;
 
 public class Student extends Person implements IPerson{
 
-    private String name;
     private String nic;
 
     public Student() {
@@ -17,10 +16,6 @@ public class Student extends Person implements IPerson{
     public Student(String name, String nic) {
         this.name = name;
         this.nic = nic;
-    }
-
-    public String getName() {
-        return this.name;
     }
 
     public void setName(String name) {

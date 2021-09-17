@@ -2,8 +2,8 @@ package app;
 
 public abstract class Person {
 
-    private String name;
-    private String nic;
+    protected String name;
+    protected String nic;
     
     public String getName() {
         return this.name;
