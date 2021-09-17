@@ -1,5 +1,5 @@
 package app;
 
-public abstract class Person {
+public class Person {
     
 }
