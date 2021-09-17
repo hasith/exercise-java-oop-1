@@ -39,6 +39,13 @@ Every task here is covered by one or more test cases. You should locally run the
     * ```String getName()```
     * ```void setName(String name)```
     * ```String getNIC()```
-    * ```void setNIC(String nic)```
+    * ```void setNIC(String nic)```  
 
     > Note that the access modifier ```private``` of the class-variables should be changed to ```protected``` in order for them to be accessible to the inherited classes.
+
+1. **Task_5_implement_getAge**: Add the following 2 methods to ```IPerson``` interface. You are required to code the implementation of the 2 methods to ```Person``` abstract class.
+    * ```setBirthYear(int year)```
+    * ```int getBirthYear()```
+    * ```int getAge()```
+
+    > Age should be calculated by reducing the year-of-birth from current year.
