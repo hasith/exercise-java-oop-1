@@ -1,8 +1,11 @@
 package tests;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 import org.junit.Test;
 import app.Person;
+import app.Student;
+import java.lang.reflect.Method;
 
 public class Task_4_reuse_via_abstract_class {
 
@@ -39,6 +42,16 @@ public class Task_4_reuse_via_abstract_class {
             Person.class.getMethod("setNIC", String.class);
         } catch (NoSuchMethodException e) {
             fail("Abstract class should implement setNIC method");
+        }
+    }
+
+    @Test
+    public void is_student_getName_inherited_from_person() {
+        try {
+            Method m = Student.class.getMethod("getName");
+            assertEquals(Person.class, m.getDeclaringClass());
+        } catch (NoSuchMethodException e) {
+            fail("Student class should inherit getName method from Person abstract class");
         }
     }
 
