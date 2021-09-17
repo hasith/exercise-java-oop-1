@@ -33,8 +33,12 @@ Every task here is covered by one or more test cases. You should locally run the
 
 1. **Task_3_abstract_class_person**: There is an empty class in the solution called ```Person```. We need to make this an abstract class. Then inherit ```Student``` and ```Instructor``` classes from this ```Person``` abstract class.
 
-1. **Task_4_reuse_via_abstract_class**: Move following common methods in ```Student``` and ```Instructor``` classes to the new abstract class ```Person```. This allows us to reuse these methods and reduce the amount of code in the solution. Remove the moved methods from the 2 inherited classes.
+1. **Task_4_reuse_via_abstract_class**: Move following common methods and class variables in ```Student``` and ```Instructor``` classes to the new abstract class ```Person```. This allows us to reuse these methods and reduce the amount of code in the solution. Remove the moved methods from the 2 inherited classes.
+    * ```private String name```
+    * ```private String nic```
     * ```String getName()```
     * ```void setName(String name)```
     * ```String getNIC()```
     * ```void setNIC(String nic)```
+
+    > Note that the access modifier ```private``` in the class variables should be changed to ```protected``` in order for them to be accessible to the inherited classes.
