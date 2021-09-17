@@ -1,5 +1,7 @@
 package app;
 
+import java.util.Calendar;
+
 public abstract class Person {
 
     protected String name;
@@ -31,6 +33,7 @@ public abstract class Person {
     }
 
     public int getAge() {
-        return 0;
+        int currentYear = Calendar.getInstance().get(Calendar.YEAR);
+        return currentYear - this.birthYear;
     }
 }
