@@ -1,7 +1,7 @@
 package app;
 
 
-public class Student implements IPerson{
+public class Student extends Person implements IPerson{
 
     private String name;
     private String nic;
