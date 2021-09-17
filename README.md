@@ -27,18 +27,25 @@ Every task here is covered by one or more test cases. You should locally run the
 
 ## Tasks to solve
 
-1. **Task_1_add_interface_to_student**: There is a class called ```Student``` in the source code. You must get this class to implement ```IPerson``` interface. There can be methods that are required to be added to the Student class as a result of this change.
+1. **Task_1_add_interface_to_student**: There is a class called ```Student``` in the source code. You must get this class to implement ```IPerson``` interface which you can find in teh code. There can be methods that are required to be added to the ```Student``` class as a result of this interface implementation.
 
-1. **Task_2_complete_instructor**: Have a look at ```Instructor``` class. It should be completed similar to ```Student``` class. This class should also implement ```IPerson``` interface.
+1. **Task_2_complete_instructor**: Have a look at ```Instructor``` class. It should be completed similar to ```Student``` class. This class must also implement the ```IPerson``` interface.
 
 1. **Task_3_abstract_class_person**: There is an empty class in the solution called ```Person```. We need to make this an abstract class. Then inherit ```Student``` and ```Instructor``` classes from this ```Person``` abstract class.
 
-1. **Task_4_reuse_via_abstract_class**: Move following common methods and class variables in ```Student``` and ```Instructor``` classes to the new abstract class ```Person```. This allows us to reuse these methods and reduce the amount of code in the solution. Remove the moved methods from the 2 inherited classes.
+1. **Task_4_reuse_via_abstract_class**: Move following common methods and class-variables in ```Student``` and ```Instructor``` to the abstract class ```Person```. This allows us to reuse these methods in ```Person``` and reduce the amount of code in ```Student``` and ```Instructor``` classes. Now remove the following methods and class-variables from the 2 inherited child classes.
     * ```private String name```
     * ```private String nic```
     * ```String getName()```
     * ```void setName(String name)```
     * ```String getNIC()```
-    * ```void setNIC(String nic)```
+    * ```void setNIC(String nic)```  
 
-    > Note that the access modifier ```private``` in the class variables should be changed to ```protected``` in order for them to be accessible to the inherited classes.
+    > Note that the access modifier ```private``` of the class-variables should be changed to ```protected``` in order for them to be accessible to the inherited classes.
+
+1. **Task_5_implement_getAge**: Add the following 2 methods to ```IPerson``` interface. You are required to code the implementation of the 2 methods to ```Person``` abstract class.
+    * ```setBirthYear(int year)```
+    * ```int getBirthYear()```
+    * ```int getAge()```
+
+    > Age should be calculated by reducing the year-of-birth from current year.
