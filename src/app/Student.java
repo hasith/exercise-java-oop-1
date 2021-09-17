@@ -6,6 +6,10 @@ public class Student {
     private String name;
     private String nic;
 
+    public Student() {
+        
+    }
+
     public Student(String name) {
         this.name = name;
     }

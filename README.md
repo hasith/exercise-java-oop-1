@@ -27,4 +27,6 @@ Every task here is covered by one or more test cases. You should locally run the
 
 ## Tasks to solve
 
-1. Task_implementing_an_interface: There is a class called 'Student'in the source code. You must get this class to implement 'IPerson' interface. There can be methods that are required to be added to the Student class as a result of this change.
+1. Task_add_interface_to_student: There is a class called ```Student``` in the source code. You must get this class to implement ```IPerson``` interface. There can be methods that are required to be added to the Student class as a result of this change.
+
+1. Task_complete_instructor: Have a look at ```Instructor``` class. It should be completed similar to ```Student``` class. This class should also implement ```IPerson``` interface.
