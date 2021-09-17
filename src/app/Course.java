@@ -45,8 +45,8 @@ public class Course {
         return null;
     }
 
-    public int getAverageAgeOfPersons() {
+    public List<IPerson> getAllAssociatedPersons() {
         // TODO this method is not yet implemented
-        return -1;
+        return null;
     }
 }
