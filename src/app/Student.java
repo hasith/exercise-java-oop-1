@@ -23,8 +23,16 @@ public class Student implements IPerson{
         return this.name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public String getNIC() {
         return this.nic;
+    }
+
+    public void setNIC(String nic) {
+        this.nic = nic;
     }
 
     public String toString() {
