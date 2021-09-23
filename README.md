@@ -1,4 +1,4 @@
-# exercise-java-oop-1
+# OOP Abstract Classes and Interfaces (Assignment)
 
 This repository is for students to practice the use of abstractions and interfaces of OOP. The exercise project is implemented in Java.
 
@@ -9,33 +9,40 @@ This repository is for students to practice the use of abstractions and interfac
 
 ## Setting up the project locally
 
-1. Folk this repository from GitHub on to your personal GitHub account. Clone the code from your repository to your local computer.
+1. Folk this repository from GitHub on to your personal GitHub account. 
 
-1. Use an IDE of your preference. THis solution was originally created by VS Code and therefore necessary settings are already available if you are using VS Code.
+1. Clone the code from your repository to your local computer.
+    ```git clone < your Github repo URL >```
 
-1. Run the application using App.java. This application contains a skeleton of a simple command line application. You should be able to perform the actions such as 'adding students', 'printing students', etc.
+1. Use an IDE of your preference. This solution was originally created by VS Code and therefore necessary settings are already available if you are using VS Code. Optionally you can edit the code files with a simple text editor and use CLI commands to compile, run and test.
 
-    * Compile the code:
+1. Compile and Run the application using App.java. This application contains a half built code of a simple CLI application for a School Management System. You should be able to perform the actions such as 'adding students to a course', 'printing students of the course', etc.
+
+    * How to compile the code via CLI commands:
         * Windows: ```javac -cp "src;lib/*" -d bin src/**/*.java```
         * Mac/Linux: ```javac -cp "src:lib/*" -d bin src/**/*.java```
 
-    * Run the Application:
+    * How to run the Application via CLI:
         * Windows: ```java -cp "bin;lib/*" app/App```
         * Mac/Linux: ```java -cp "bin:lib/*" app/App```
 
-1. Run the tests using JUnit. All the tests will fail as you have not solved the required tasks.
+1. Run the tests using JUnit. Below are the CLI commands unless you use the IDE features.
     * Windows: ```java -cp "bin;lib/*" org.junit.runner.JUnitCore tests.TestSuite```
     * Mac/Linux: ```java -cp "bin:lib/*" org.junit.runner.JUnitCore tests.TestSuite```
 
-## How to solve the required tasks
+    > All the tests will fail as you have not yet completed the required tasks.
 
-Below is the list of activities you need to perform to get all tests to run successfully. Solve the tasks in the given sequence.
+## How to solve the tasks
 
-Once you solve a task, please commit the code and push it to your GitHub repository so that your instructors will be able to see how you progressed step by step.
+Below is the list of tasks you need to complete to get all tests to run successfully. Solve the tasks in the given sequence.
 
-Every task here is covered by one or more test cases. You should locally run the tests to see if the related test is passed before pushing your code to the GitHub repository.
+Once you solve a task, run the tests to verify you have completed it successfully. Every task is covered by one or more tests.
 
-Co complete this assignment, all the tests should pass after you complete the tasks.
+please commit the code and push it to your GitHub repository so that your instructors will be able to see how you progressed step by step.
+
+> You must locally run the tests to see if the test succeed before pushing your code to the Forked GitHub repository.
+
+Once all the tasks are completed and if all your tests succeed, you can submit the URL of your Forked Git repository as the submission of this assessment.
 
 ## Tasks to solve
 
