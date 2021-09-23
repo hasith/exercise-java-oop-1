@@ -1,11 +1,11 @@
-# OOP Abstract Classes and Interfaces (Assignment)
+# OOP Assignment - Abstract Classes and Interfaces
 
-This repository is for students to practice the use of abstractions and interfaces of OOP. The exercise project is implemented in Java.
+This repository is for students to practice the use of abstractions and interfaces of OOP. The project uses Java.
 
 ## Prerequisites
 
-* Knowledge of using a Git repository
-* Basic knowledge on Java programming language
+* Knowledge of using GitHub and Git repository to clone, commit, push code.
+* Basic knowledge of Java programming language
 
 ## Setting up the project locally
 
