@@ -14,7 +14,7 @@ This repository is for students to practice the use of abstractions and interfac
 1. Clone the code from your repository to your local computer.
     ```git clone < your Github repo URL >```
 
-1. Use an IDE of your preference. This solution was originally created by VS Code and therefore necessary settings are already available if you are using VS Code. Optionally you can edit the code files with a simple text editor and use CLI commands to compile, run and test.
+1. Use an IDE of your preference. This solution was originally created by VS Code (with 'Extension Pack for Java' installed) and therefore necessary settings are already available if you are using VS Code. Optionally you can edit the code files with a simple text editor and use CLI commands to compile, run and test.
 
 1. Compile and Run the application using App.java. This application contains a half built code of a simple CLI application for a School Management System. You should be able to perform the actions such as 'adding students to a course', 'printing students of the course', etc.
 
