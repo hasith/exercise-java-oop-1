@@ -46,7 +46,7 @@ Once all the tasks are completed and if all your tests succeed, you can submit t
 
 ## Tasks to solve
 
-1. **Task 1: Add interface to student**: There is a class called `Student` in the source code. You must get this class to implement `IPerson` interface which you can find in teh code. There can be methods that are required to be added to the `Student` class as a result of this interface implementation.
+1. **Task 1: Add interface to student**: There is a class called `Student` in the source code. You must get this class to implement `IPerson` interface which you can find in the code. There can be methods that are required to be added to the `Student` class as a result of this interface implementation.
 
 1. **Task 2: Complete instructor**: Have a look at `Instructor` class. It should be completed similar to `Student` class. This class must also implement the `IPerson` interface.
 
